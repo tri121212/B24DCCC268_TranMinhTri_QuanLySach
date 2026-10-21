@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:background="@color/surface" android:fitsSystemWindows="true">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@color/primary" android:padding="20dp" android:text="THƯ VIỆN SÁCH CỦA TÔI" android:textColor="@android:color/white" android:textSize="21sp" android:textStyle="bold" />
+    <TextView android:id="@+id/tvStatistics" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="16dp" android:background="#E3F2FD" android:padding="16dp" android:textColor="@color/primary_dark" android:textStyle="bold" />
+    <ListView android:id="@+id/listBooks" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:divider="@android:color/transparent" android:dividerHeight="4dp" android:paddingLeft="12dp" android:paddingRight="12dp" />
+    <Button android:id="@+id/btnAddBook" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="16dp" android:text="+ THÊM SÁCH" android:backgroundTint="@color/primary" android:textColor="@android:color/white" />
+</LinearLayout>

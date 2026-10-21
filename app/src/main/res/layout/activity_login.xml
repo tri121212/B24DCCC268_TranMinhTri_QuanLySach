@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/surface"
+    android:gravity="center_horizontal" android:orientation="vertical" android:padding="28dp" android:fitsSystemWindows="true">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="80dp"
+        android:text="THƯ VIỆN CÁ NHÂN" android:textColor="@color/primary" android:textSize="26sp" android:textStyle="bold" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="32dp"
+        android:text="Đăng nhập để quản lý sách của bạn" android:textSize="16sp" />
+    <EditText android:id="@+id/edtUsername" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Tên đăng nhập" android:inputType="text" />
+    <EditText android:id="@+id/edtPassword" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:hint="Mật khẩu" android:inputType="textPassword" />
+    <TextView android:id="@+id/tvLoginError" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:textColor="#B00020" android:visibility="gone" />
+    <Button android:id="@+id/btnLogin" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18dp" android:text="ĐĂNG NHẬP" android:backgroundTint="@color/primary" android:textColor="@android:color/white" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:text="Tài khoản mẫu: admin / 123456" android:textColor="#666666" />
+</LinearLayout>
